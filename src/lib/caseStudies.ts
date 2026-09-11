@@ -55,7 +55,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "case-study-three",
-    title: "Turning customer demand into feature",
+    title: "Turning demand into feature",
     summary:
       "Translated customer problem into a new product capability that became key reason for purchase or renewal",
     outcomes: [
