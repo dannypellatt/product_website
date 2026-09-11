@@ -9,6 +9,7 @@ type PhotoProps = {
   aspect?: string;
   className?: string;
   priority?: boolean;
+  fit?: "cover" | "contain";
 };
 
 export default function Photo({
@@ -18,6 +19,7 @@ export default function Photo({
   aspect = "aspect-[4/3]",
   className = "",
   priority = false,
+  fit = "cover",
 }: PhotoProps) {
   if (!publicImageExists(src)) {
     return <ImagePlaceholder label={placeholderLabel} aspect={aspect} className={className} />;
@@ -30,7 +32,7 @@ export default function Photo({
         alt={alt}
         fill
         priority={priority}
-        className="object-cover"
+        className={fit === "contain" ? "object-contain" : "object-cover"}
         sizes="(min-width: 1024px) 480px, 100vw"
       />
     </div>

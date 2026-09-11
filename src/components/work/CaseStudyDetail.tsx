@@ -1,4 +1,4 @@
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
+import Photo from "@/components/ui/Photo";
 import { CaseStudy } from "@/lib/caseStudies";
 
 const sections: { key: keyof CaseStudy; label: string }[] = [
@@ -27,7 +27,14 @@ export default function CaseStudyDetail({
         {caseStudy.summary}
       </p>
 
-      <ImagePlaceholder label={caseStudy.imageAlt} className="mt-10" aspect="aspect-[16/9]" />
+      <Photo
+        src={caseStudy.photoSrc ?? `/images/${caseStudy.slug}.jpg`}
+        alt={caseStudy.imageAlt}
+        placeholderLabel={caseStudy.imageAlt}
+        className="mt-10"
+        aspect="aspect-[16/9]"
+        fit="contain"
+      />
 
       <dl className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2">
         {sections.map(({ key, label }) => (

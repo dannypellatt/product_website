@@ -1,12 +1,17 @@
 import Link from "next/link";
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
+import Photo from "@/components/ui/Photo";
 import { CaseStudy } from "@/lib/caseStudies";
 
 export default function CaseStudyPreviewCard({ caseStudy }: { caseStudy: CaseStudy }) {
   return (
     <article className="flex flex-col border-t border-border pt-6">
       <Link href={`/work#${caseStudy.slug}`} className="group flex flex-col gap-6">
-        <ImagePlaceholder label={caseStudy.imageAlt} />
+        <Photo
+          src={caseStudy.photoSrc ?? `/images/${caseStudy.slug}.jpg`}
+          alt={caseStudy.imageAlt}
+          placeholderLabel={caseStudy.imageAlt}
+          fit="contain"
+        />
 
         <div>
           <h3 className="font-serif text-xl leading-snug group-hover:text-accent">
