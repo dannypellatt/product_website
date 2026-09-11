@@ -9,11 +9,11 @@ export default function Hero() {
           Product Manager &middot; Technical Product Manager
         </p>
         <h1 className="mt-4 max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
-          Your Name
+          Danny Pellatt
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-          Placeholder positioning statement describing the kind of products
-          you build, who you build them for, and the impact you drive.
+          Software engineer turned product leader with experience taking products from idea through launch, 
+          scaling SaaS platforms, and working directly with enterprise customers
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
