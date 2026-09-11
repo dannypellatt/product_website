@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="border-b border-border py-20 sm:py-28">
       <Container>
-        <h1 className="mt-4 max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
+        <h1 className="mb-4 max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
           Danny Pellatt
         </h1>
         <p className="text-xs uppercase tracking-[0.15em] text-accent">
