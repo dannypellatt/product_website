@@ -7,21 +7,24 @@ export default function Hero() {
     <section className="border-b border-border py-20 sm:py-28">
       <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-16">
         <div>
+          <h1 className="mb-4 max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
+            Danny Pellatt
+          </h1>
           <p className="text-xs uppercase tracking-[0.15em] text-accent">
             Product Manager &middot; Technical Product Manager
           </p>
-          <h1 className="mt-4 max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
-            Your Name
-          </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            Placeholder positioning statement describing the kind of products
-            you build, who you build them for, and the impact you drive.
+            Software engineer turned product leader with experience taking products from idea through launch,
+            scaling SaaS platforms, and working directly with enterprise customers
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
             <Button href="/work">View Work</Button>
             <Button href="/about" variant="secondary">
               About Me
+            </Button>
+            <Button href="/about" variant="secondary">
+              LinkedIn*
             </Button>
           </div>
         </div>
