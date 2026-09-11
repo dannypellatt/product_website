@@ -35,18 +35,19 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "case-study-two",
-    title: "Case Study Title Two",
+    title: "Launching a new product",
     summary:
-      "One-sentence summary of the product problem and the impact of the work.",
+      "Led the creation and launch of a new product covering independent veterinary practices across the United States.",
     outcomes: [
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
+      "~15,000 verified independent practices",
+      "3× increase in U.S. practice coverage",
+      "New $20K/year subscription product",
     ],
     imageAlt: "Placeholder image for case study two",
-    problem: "Placeholder description of the problem this project addressed.",
+    problem: 
+      "Antelligence had strong visibility into corporately owned veterinary practices, but a large part of the U.S. market was still missing: independent practices. Customers wanted a more complete view of the industry, but there was no reliable source we could simply buy or import. Building the product meant first figuring out what counted as an independent veterinary practice — and then finding and verifying thousands of them.",
     insight:
-      "Placeholder description of the customer insight or business context that shaped the approach.",
+      "Before building anything, I helped establish the rules that would make the database useful and consistent. We defined which practices belonged in the product, how ownership should be verified, what information customers actually needed, and how uncertain or conflicting records should be handled. That meant drawing clear boundaries around things like mobile practices, shelters, vaccine clinics, specialty hospitals, closed locations, and practices with unclear ownership.",
     whatIDid:
       "Placeholder description of the role played and the work done to move the project forward.",
     outcome:
@@ -54,13 +55,13 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "case-study-three",
-    title: "Case Study Title Three",
+    title: "Turning customer demand into feature",
     summary:
-      "One-sentence summary of the product problem and the impact of the work.",
+      "Translated customer problem into a new product capability that became key reason for purchase or renewal",
     outcomes: [
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
+      "New customer-driven product capability",
+      "Complex data translated into usable staffing insights",
+      "60% of interviewed customers cited it as a purchase or renewal driver",
     ],
     imageAlt: "Placeholder image for case study three",
     problem: "Placeholder description of the problem this project addressed.",
