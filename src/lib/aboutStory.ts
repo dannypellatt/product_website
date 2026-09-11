@@ -2,6 +2,7 @@ export type StorySlide = {
   index: number;
   title: string;
   body: string;
+  photoSrc?: string;
   isFinal?: boolean;
 };
 
@@ -31,6 +32,7 @@ export const storySlides: StorySlide[] = [
     index: 5,
     title: "From syntax to strategy",
     body: "While engineering, I realized I most loved documenting the systems, and getting to know why the system worked as a whole. This gradually became more about deciding what should be built, why it mattered, and how to get it there. I moved closer to customers, strategy, and cross-functional leadership, while still leaning on my technical background to work effectively with engineers. Product became the place where the different parts of my career finally came together.",
+    photoSrc: "/images/danny-syntax-to-strategy.jpg",
   },
   {
     index: 6,

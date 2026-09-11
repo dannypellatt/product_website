@@ -1,5 +1,5 @@
 import Button from "@/components/ui/Button";
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
+import Photo from "@/components/ui/Photo";
 import { StorySlide as StorySlideType } from "@/lib/aboutStory";
 
 export default function StorySlide({ slide }: { slide: StorySlideType }) {
@@ -9,8 +9,10 @@ export default function StorySlide({ slide }: { slide: StorySlideType }) {
     <section className="border-b border-border py-16 last:border-none sm:py-24">
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
         <div className={imageFirst ? "lg:order-2" : "lg:order-1"}>
-          <ImagePlaceholder
-            label={`Photo placeholder — ${slide.title}`}
+          <Photo
+            src={slide.photoSrc ?? `/images/about-${slide.index}.jpg`}
+            alt={slide.title}
+            placeholderLabel={`Photo placeholder — ${slide.title}`}
             aspect="aspect-[4/3]"
           />
         </div>

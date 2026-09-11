@@ -1,6 +1,6 @@
 import Button from "@/components/ui/Button";
 import Container from "@/components/layout/Container";
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
+import Photo from "@/components/ui/Photo";
 
 export default function Hero() {
   return (
@@ -29,7 +29,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <ImagePlaceholder label="Portrait placeholder" aspect="aspect-[4/5]" />
+        <Photo
+          src="/images/danny-hero.jpg"
+          alt="Danny Pellatt"
+          placeholderLabel="Portrait placeholder"
+          aspect="aspect-[4/5]"
+          priority
+        />
       </Container>
     </section>
   );
