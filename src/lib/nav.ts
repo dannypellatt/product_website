@@ -4,8 +4,7 @@ export type NavLink = {
   external?: boolean;
 };
 
-// TODO: replace with real LinkedIn URL
-export const LINKEDIN_URL = "https://www.linkedin.com/in/your-profile";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/dannypellatt";
 
 export const primaryNav: NavLink[] = [
   { label: "Home", href: "/" },
