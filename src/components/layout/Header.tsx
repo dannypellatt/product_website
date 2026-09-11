@@ -17,7 +17,7 @@ export default function Header() {
           href="/"
           className="font-serif text-lg tracking-tight sm:text-xl"
         >
-          Your Name
+          Danny Pellatt
         </Link>
 
         <nav
