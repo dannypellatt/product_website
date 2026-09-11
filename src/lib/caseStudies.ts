@@ -14,16 +14,17 @@ export type CaseStudy = {
 export const caseStudies: CaseStudy[] = [
   {
     slug: "case-study-one",
-    title: "Case Study Title One",
+    title: "Scaling into a $1m+ SaaS Product",
     summary:
-      "One-sentence summary of the product problem and the impact of the work.",
+      "Led transformation of a free veterinary industry resource into a scalable SaaS generating more than $1M in ARR.",
     outcomes: [
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
-      "Placeholder outcome metric or result",
+      "$1m+ ARR",
+      "60+ Enterprise Customers",
+      "1000+ Users",
+      "500k+ Datapoints",
     ],
     imageAlt: "Placeholder image for case study one",
-    problem: "Placeholder description of the problem this project addressed.",
+    problem: "Antelligence began with a valuable but relatively simple industry database. As customer demand grew, the product needed to become more scalable, more reliable, and easier to use — without losing the data quality that made it useful in the first place. \n The challenge was no longer just maintaining information. It was turning that information into a product that enterprise customers could depend on.",
     insight:
       "Placeholder description of the customer insight or business context that shaped the approach.",
     whatIDid:
