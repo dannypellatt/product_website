@@ -16,9 +16,9 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Product Manager",
+  title: "Danny Pellatt — Product Manager",
   description:
-    "Portfolio of a Product Manager / Technical Product Manager.",
+    "Portfolio of a Technical Product Manager.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
