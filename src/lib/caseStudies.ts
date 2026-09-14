@@ -73,11 +73,15 @@ export const caseStudies: CaseStudy[] = [
       "Before building anything, I helped establish the rules that would make the database useful and consistent. We defined which practices belonged in the product, how ownership should be verified, what information customers actually needed, and how uncertain or conflicting records should be handled. That meant drawing clear boundaries around things like mobile practices, shelters, vaccine clinics, specialty hospitals, closed locations, and practices with unclear ownership.",
     whatIDid: {
       summary:
-        "Placeholder summary sentence describing the role played in moving this project forward.",
+        "I led the product from initial concept through launch, working across product definition, data, research, and technical implementation. My work included:",
       bullets: [
-        "Placeholder responsibility or action",
-        "Placeholder responsibility or action",
-        "Placeholder responsibility or action",
+        "defining the scope and inclusion criteria",
+        "designing the research and verification workflow",
+        "establishing quality and status standards",
+        "identifying and evaluating potential data sources",
+        "designing the structure of the underlying dataset",
+        "building automated checks to reduce manual research",
+        "creating processes for deduplication, ownership verification, and ongoing updates",
       ],
     },
     outcome:
@@ -103,11 +107,15 @@ export const caseStudies: CaseStudy[] = [
       "The underlying need wasn't just 'show me how many vets work here.' Customers wanted a practical way to compare practices, identify larger opportunities, and understand the market at a glance. That meant the feature had to simplify a messy data problem into something commercially useful.",
     whatIDid: {
       summary:
-        "Placeholder summary sentence describing the role played in moving this project forward.",
+        "I helped define the product approach and translate the customer need into something the engineering and data teams could work with. My role included:",
       bullets: [
-        "Placeholder responsibility or action",
-        "Placeholder responsibility or action",
-        "Placeholder responsibility or action",
+        "gathering feedback from customers and prospects",
+        "clarifying the underlying use case",
+        "defining how staffing estimates should behave",
+        "working with the team on the logic behind multi-location veterinarians",
+        "deciding how the output should be presented to users",
+        "introducing simple practice-size categories to make the data easier to use",
+        "validating the feature through follow-up customer conversations",
       ],
     },
     outcome:
