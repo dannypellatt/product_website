@@ -60,7 +60,7 @@ export const caseStudies: CaseStudy[] = [
     whatIDid:
       "Placeholder description of the role played and the work done to move the project forward.",
     outcome:
-      "The platform grew into a subscription product serving more than 60 enterprise customers and 1,000+ users, with over $1M in annual recurring revenue.",
+      "We launched a new subscription product covering roughly 15,000 verified independent veterinary practices, tripling Antelligence’s coverage of the U.S. veterinary market. The product opened up a previously uncovered segment for customers and created a new $20K/year subscription offering.",
   },
   {
     slug: "case-study-three",
