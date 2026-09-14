@@ -45,4 +45,4 @@ export const storySlides: StorySlide[] = [
     photoSrc: "/images/MeAndBanjo.jpeg",
     isFinal: true,
   },
-];ft6
+];
