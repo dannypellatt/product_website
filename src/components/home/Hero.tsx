@@ -24,7 +24,7 @@ export default function Hero() {
               About Me
             </Button>
             <Button href="/about" variant="secondary">
-              LinkedIn*
+              LinkedIn
             </Button>
           </div>
         </div>
