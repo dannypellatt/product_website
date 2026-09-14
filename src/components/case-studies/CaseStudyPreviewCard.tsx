@@ -10,6 +10,7 @@ export default function CaseStudyPreviewCard({ caseStudy }: { caseStudy: CaseStu
           src={caseStudy.photoSrc ?? `/images/${caseStudy.slug}.jpg`}
           alt={caseStudy.imageAlt}
           placeholderLabel={caseStudy.imageAlt}
+          aspect="aspect-[16/10]"
           fit="contain"
         />
 

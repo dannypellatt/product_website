@@ -32,7 +32,7 @@ export default function CaseStudyDetail({
         alt={caseStudy.imageAlt}
         placeholderLabel={caseStudy.imageAlt}
         className="mt-10"
-        aspect="aspect-[16/9]"
+        aspect="aspect-[16/10]"
         fit="contain"
       />
 
