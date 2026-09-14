@@ -46,7 +46,7 @@ export const caseStudies: CaseStudy[] = [
       "New $20K/year subscription product",
     ],
     imageAlt: "Placeholder image for case study two",
-    photoSrc: "/images/staffing_insights.jpg",
+    photoSrc: "/images/staffing_insights_fixed.jpg",
     problem: 
       "Antelligence had strong visibility into corporately owned veterinary practices, but a large part of the U.S. market was still missing: independent practices. Customers wanted a more complete view of the industry, but there was no reliable source we could simply buy or import. Building the product meant first figuring out what counted as an independent veterinary practice — and then finding and verifying thousands of them.",
     insight:
