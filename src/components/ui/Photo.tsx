@@ -26,7 +26,7 @@ export default function Photo({
   }
 
   return (
-    <div className={`relative ${aspect} overflow-hidden bg-bg-raised ${className}`}>
+    <div className={`relative ${aspect} overflow-hidden border border-border bg-bg-raised ${className}`}>
       <Image
         src={src}
         alt={alt}
