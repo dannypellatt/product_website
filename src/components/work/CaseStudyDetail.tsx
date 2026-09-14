@@ -34,13 +34,13 @@ export default function CaseStudyDetail({
         <dl className="grid grid-cols-1 gap-10 sm:grid-cols-2">
           <div>
             <dt className="text-xs uppercase tracking-[0.15em] text-accent">The Problem</dt>
-            <dd className="mt-3 max-w-md text-base leading-relaxed text-fg">{caseStudy.problem}</dd>
+            <dd className="mt-3 text-base leading-relaxed text-fg">{caseStudy.problem}</dd>
           </div>
           <div>
             <dt className="text-xs uppercase tracking-[0.15em] text-accent">
               Customer Insight / Context
             </dt>
-            <dd className="mt-3 max-w-md text-base leading-relaxed text-fg">{caseStudy.insight}</dd>
+            <dd className="mt-3 text-base leading-relaxed text-fg">{caseStudy.insight}</dd>
           </div>
         </dl>
 
