@@ -124,4 +124,39 @@ export const caseStudies: CaseStudy[] = [
     outcome:
       "The feature gave customers a new way to segment practices by estimated staffing and size, helping them identify and prioritize opportunities more effectively. In follow-up interviews, 60% of customers we spoke with said the capability was a key reason to purchase or renew.",
   },
+  {
+    slug: "case-study-four",
+    title: "Owning the customer relationship",
+    summary:
+      "Acted as the primary technical and product point of contact for enterprise customers, from onboarding through ongoing support and product feedback.",
+    outcomes: [
+      "New customer-driven product capability",
+      "Complex data translated into usable insights",
+      "60% of interviewed customers cited it as a purchase or renewal driver",
+    ],
+    imageAlt: "Placeholder image for case study three",
+    photoSrc: "/images/enterprise_vs_independent.jpg",
+    photoWidth: 1441,
+    photoHeight: 879,
+    problem: 
+      "As the platform grew, customers needed more than access to the product. They needed help understanding the data, using the platform effectively, resolving issues quickly, and getting confidence that their feedback would actually influence the roadmap.",
+    insight:
+      "Because I worked directly with customers, I saw patterns that weren’t always obvious from support tickets alone. The same questions, frustrations, and requests would often surface across demos, onboarding calls, renewals, and day-to-day usage. That gave me a direct view into where the product was confusing, where customers were finding the most value, and which requests were worth turning into permanent capabilities.",
+    whatIDid: {
+      summary:
+        "I became the main technical and product contact for customers across onboarding, support, and ongoing product conversations. My role included:",
+      bullets: [
+        "Led demos and onboarding for new enterprise customers",
+        "Ran troubleshooting and support conversations with users",
+        "Investigated data discrepancies using SQL and internal tools",
+        "Translated customer issues into bug tickets or roadmap items",
+        "Identified recurring requests and turned them into features",
+        "Worked with engineering to prioritize customer-impacting issues",
+        "Explained technical concepts to non-technical users",
+        "Supported customers through renewals and expansion",
+      ],
+    },
+    outcome:
+      "The feature gave customers a new way to segment practices by estimated staffing and size, helping them identify and prioritize opportunities more effectively. In follow-up interviews, 60% of customers we spoke with said the capability was a key reason to purchase or renew.",
+  },
 ];
