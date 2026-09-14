@@ -17,7 +17,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="About"
             title="My story, in six parts"
-            description="How I got into product, and the slightly unconventional route that got me there."
+            description="How the pieces came together, and shaped how I work today."
           />
         </Container>
       </section>
