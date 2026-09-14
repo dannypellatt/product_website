@@ -12,7 +12,7 @@ export default function CaseStudySelector({ caseStudies }: { caseStudies: CaseSt
             >
               <span className="font-serif text-xs text-accent">
                 {String(index + 1).padStart(2, "0")}
-              </span>
+              </span>{" "}
               {caseStudy.title}
             </a>
           </li>

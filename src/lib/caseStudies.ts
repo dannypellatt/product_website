@@ -51,7 +51,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     imageAlt: "Placeholder image for case study two",
     photoSrc: "/images/enterprise_vs_independent.jpg",
-    photoWidth: 1442,
+    photoWidth: 1437,
     photoHeight: 880,
     problem: 
       "Antelligence had strong visibility into corporately owned veterinary practices, but a large part of the U.S. market was still missing: independent practices. Customers wanted a more complete view of the industry, but there was no reliable source we could simply buy or import. Building the product meant first figuring out what counted as an independent veterinary practice — and then finding and verifying thousands of them.",
@@ -74,7 +74,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     imageAlt: "Placeholder image for case study three",
     photoSrc: "/images/staffing_insights_fixed.jpg",
-    photoWidth: 1437,
+    photoWidth: 1442,
     photoHeight: 880,
     problem: "Placeholder description of the problem this project addressed.",
     insight:
