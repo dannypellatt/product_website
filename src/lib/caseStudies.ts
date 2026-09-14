@@ -31,7 +31,7 @@ export const caseStudies: CaseStudy[] = [
     photoWidth: 1441,
     photoHeight: 879,
     problem: 
-      "Antelligence's Enterprise Practice Database started as a free industry report tracking veterinary ownership across the U.S. It was well received, but customers quickly wanted access to the underlying data and were willing to pay for it because there was no reliable source for that information elsewhere. The opportunity was to turn a useful piece of industry research into a product customers could search, analyze, and depend on as part of their day-to-day work.",
+      "Antelligence’s Enterprise Practice Database began as a free report tracking U.S. veterinary ownership. It was well received, and customers quickly began asking for the underlying data — information that simply wasn’t available in a reliable form elsewhere. That created an opportunity to turn the research into a searchable product customers would pay for and use in their day-to-day work.",
     insight:
       "Talking with customers made it clear that the value wasn't simply in having a list of veterinary practices. They wanted to use the data to understand ownership, identify opportunities, segment the market, and make better commercial decisions. That shifted the opportunity from selling access to information into building a product around how customers actually wanted to use it.",
     whatIDid:
@@ -45,9 +45,9 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Led the creation and launch of a new product covering independent veterinary practices across the United States.",
     outcomes: [
-      "~15,000 verified independent practices",
+      "~18,000 verified independent practices",
       "3× increase in U.S. practice coverage",
-      "New $20K/year subscription product",
+      "New $20K/year subscription product, or sold bundled with Enterprise product",
     ],
     imageAlt: "Placeholder image for case study two",
     photoSrc: "/images/enterprise_vs_independent.jpg",
@@ -60,28 +60,29 @@ export const caseStudies: CaseStudy[] = [
     whatIDid:
       "Placeholder description of the role played and the work done to move the project forward.",
     outcome:
-      "Placeholder description of the outcome, impact, and what was learned.",
+      "The platform grew into a subscription product serving more than 60 enterprise customers and 1,000+ users, with over $1M in annual recurring revenue.",
   },
   {
     slug: "case-study-three",
-    title: "Turning demand into feature",
+    title: "Turning demand into features",
     summary:
       "Translated customer problem into a new product capability that became key reason for purchase or renewal",
     outcomes: [
       "New customer-driven product capability",
-      "Complex data translated into usable staffing insights",
+      "Complex data translated into usable insights",
       "60% of interviewed customers cited it as a purchase or renewal driver",
     ],
     imageAlt: "Placeholder image for case study three",
     photoSrc: "/images/staffing_insights_fixed.jpg",
     photoWidth: 1442,
     photoHeight: 880,
-    problem: "Placeholder description of the problem this project addressed.",
+    problem: 
+      "Customers wanted a better way to understand the size of veterinary practices, but the available data was messy. Veterinarians often worked across multiple locations, staffing information was inconsistent, and simply counting names could make a small practice look much larger than it really was.",
     insight:
-      "Placeholder description of the customer insight or business context that shaped the approach.",
+      "The underlying need wasn't just 'show me how many vets work here.' Customers wanted a practical way to compare practices, identify larger opportunities, and understand the market at a glance. That meant the feature had to simplify a messy data problem into something commercially useful.",
     whatIDid:
       "Placeholder description of the role played and the work done to move the project forward.",
     outcome:
-      "Placeholder description of the outcome, impact, and what was learned.",
+      "The feature gave customers a new way to segment practices by estimated staffing and size, helping them identify and prioritize opportunities more effectively. In follow-up interviews, 60% of customers we spoke with said the capability was a key reason to purchase or renew.",
   },
 ];
