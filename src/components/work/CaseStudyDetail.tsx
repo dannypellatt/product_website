@@ -32,8 +32,7 @@ export default function CaseStudyDetail({
         alt={caseStudy.imageAlt}
         placeholderLabel={caseStudy.imageAlt}
         className="mt-10"
-        aspect="aspect-[16/10]"
-        fit="contain"
+        aspect="aspect-[3/2]"
       />
 
       <dl className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2">
