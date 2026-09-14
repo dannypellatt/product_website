@@ -41,13 +41,14 @@ export const caseStudies: CaseStudy[] = [
       summary:
         "I helped lead the product from an early spreadsheet into a more mature SaaS database platform.",
       bullets: [
-        "Defining and prioritizing product improvements based on customer feedback",
-        "Shaping the roadmap and introducing clearer prioritization frameworks",
+        "Defining and prioritizing improvements based on customer feedback",
+        "Shaping the roadmap and introducing prioritization frameworks",
         "Redesigning the underlying data architecture",
         "Moving key workflows away from spreadsheet-based systems",
-        "Improving search, access control, data quality, and release processes",
-        "Working directly with customers during demos, onboarding, and product feedback sessions",
-        "Turning recurring customer requests into permanent product capabilities",
+        "Improving search, data quality, and release processes",
+        "Working directly with customers during demos and onboarding",
+        "Turning recurring customer requests into product capabilities",
+        "Keeping meticulous documentation ready for eventual sale",
       ],
     },
     outcome:
@@ -81,7 +82,8 @@ export const caseStudies: CaseStudy[] = [
         "identifying and evaluating potential data sources",
         "designing the structure of the underlying dataset",
         "building automated checks to reduce manual research",
-        "creating processes for deduplication, ownership verification, and ongoing updates",
+        "creating processes for deduplication and ownership verification",
+        "planning ongoing updates using key goal schedules",
       ],
     },
     outcome:
@@ -112,10 +114,11 @@ export const caseStudies: CaseStudy[] = [
         "gathering feedback from customers and prospects",
         "clarifying the underlying use case",
         "defining how staffing estimates should behave",
-        "working with the team on the logic behind multi-location veterinarians",
+        "creating the logic behind multi-location veterinarians",
         "deciding how the output should be presented to users",
-        "introducing simple practice-size categories to make the data easier to use",
+        "introducing simple practice-size categories to make the data useful",
         "validating the feature through follow-up customer conversations",
+        "demonstrating use cases to current and potential customers",
       ],
     },
     outcome:
