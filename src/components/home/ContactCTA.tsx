@@ -16,10 +16,10 @@ export default function ContactCTA() {
         </div>
 
         <div className="flex flex-wrap gap-4">
+          <Button href={`mailto:${EMAIL}`}>Email</Button>
           <Button href={PHONE_HREF} variant="secondary">
             Phone
           </Button>
-          <Button href={`mailto:${EMAIL}`}>Email</Button>
           <Button href={LINKEDIN_URL} variant="secondary" external>
             LinkedIn
           </Button>

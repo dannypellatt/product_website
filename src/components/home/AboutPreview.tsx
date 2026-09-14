@@ -21,7 +21,7 @@ export default function AboutPreview() {
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted">
             Before product, there was music, business, and software development. Each chapter added something different, and together they shaped how I approach products today.
           </p>
-          <Button href="/about" variant="secondary" className="mt-8">
+          <Button href="/about" className="mt-8">
             Read my story
           </Button>
         </div>
