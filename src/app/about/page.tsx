@@ -5,7 +5,7 @@ import StorySlide from "@/components/about/StorySlide";
 import { storySlides } from "@/lib/aboutStory";
 
 export const metadata: Metadata = {
-  title: "About — Your Name",
+  title: "About — Danny Pellatt",
   description: "The story behind the work.",
 };
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="About"
             title="My story, in six parts"
-            description="Placeholder intro sentence setting up the more personal, story-driven version of the usual bio."
+            description="How I got into product, and the slightly unconventional route that got me there."
           />
         </Container>
       </section>
