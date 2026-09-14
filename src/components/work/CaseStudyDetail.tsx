@@ -16,7 +16,7 @@ export default function CaseStudyDetail({
   index: number;
 }) {
   return (
-    <article id={caseStudy.slug} className="scroll-mt-32 border-b border-border py-16 first:pt-0 last:border-none sm:py-20">
+    <article id={caseStudy.slug} className="scroll-mt-32 border-b border-border py-16 last:border-none sm:py-20">
       <p className="font-serif text-sm text-accent">
         {String(index + 1).padStart(2, "0")} / Case Study
       </p>
