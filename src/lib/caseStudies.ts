@@ -130,9 +130,9 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Acted as the primary technical and product point of contact for enterprise customers, from onboarding through ongoing support and product feedback.",
     outcomes: [
-      "New customer-driven product capability",
-      "Complex data translated into usable insights",
-      "60% of interviewed customers cited it as a purchase or renewal driver",
+      "60+ enterprise customers supported from onboarding through ongoing use",
+      "~80% conversion across 50+ prospect conversations",
+      "Issues turned into 100+ permanent product fixes",
     ],
     imageAlt: "Placeholder image for case study three",
     photoSrc: "/images/onboarding_customers.jpg",
