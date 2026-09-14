@@ -19,11 +19,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/work">View Work</Button>
+            <Button href="/work" variant="secondary">
+              View Work
+            </Button>
             <Button href="/about" variant="secondary">
               About Me
             </Button>
-            <Button href="/about" variant="secondary">
+            <Button href="/about">
               LinkedIn
             </Button>
           </div>
