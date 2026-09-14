@@ -12,7 +12,7 @@ export const storySlides: StorySlide[] = [
     index: 1,
     title: "An unconventional route into product.",
     body: "I started my career in music, performing, writing, and running my own business, before moving into software development. Over time, I found myself increasingly drawn to the work around the code: understanding customer problems, deciding what to build, working with engineers, and turning ideas into useful products. That path eventually led me to where I am now: an experienced product manager, sitting comfortably in the space between customers, technology, and the decisions that turn one into the other.",
-    photoSrc: "/images/MeAcoustic.jpg",
+    photoSrc: "/images/MeAcoustic.jpeg",
   },
   {
     index: 2,
@@ -41,7 +41,7 @@ export const storySlides: StorySlide[] = [
   {
     index: 6,
     title: "Okay, cool I guess. Now show me the receipts.",
-    body: "Well… That’s the story so far! If you want to see how that experience translates into product work, take a look at a few of the projects I’ve led:",
+    body: "Well… That’s the story so far! Now living life in Carlsbad, CA, with my dog Banjo. If you want to see how that experience translates into product work, take a look at a few of the projects I’ve led:",
     photoSrc: "/images/MeAndBanjo.jpeg",
     isFinal: true,
   },
