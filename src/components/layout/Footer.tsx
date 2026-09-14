@@ -17,7 +17,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a href={`mailto:${EMAIL}`} className="hover:text-accent">
-            Email
+            dannyrpellatt@gmail.com
           </a>
           <a href={PHONE_HREF} className="hover:text-accent">
             {PHONE_DISPLAY}
