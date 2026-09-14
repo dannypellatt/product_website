@@ -2,9 +2,9 @@ import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
 import { EMAIL, LINKEDIN_URL, PHONE_HREF } from "@/lib/nav";
 
-export default function ContactCTA() {
+export default function ContactCTA({ className = "" }: { className?: string }) {
   return (
-    <section className="py-20">
+    <section className={`py-20 ${className}`}>
       <Container className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 className="font-serif text-2xl sm:text-3xl">

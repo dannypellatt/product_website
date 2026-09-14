@@ -32,7 +32,7 @@ export default function WorkPage() {
         ))}
       </Container>
 
-      <ContactCTA />
+      <ContactCTA className="border-t border-border" />
     </>
   );
 }
