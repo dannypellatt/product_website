@@ -8,9 +8,6 @@ export default function Footer() {
         <p>&copy; {new Date().getFullYear()} Danny Pellatt. All rights reserved.</p>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2">
-          <a href={PHONE_HREF} className="hover:text-accent">
-            {PHONE_DISPLAY}
-          </a>
           <a
             href={LINKEDIN_URL}
             target="_blank"
@@ -21,6 +18,9 @@ export default function Footer() {
           </a>
           <a href={`mailto:${EMAIL}`} className="hover:text-accent">
             Email
+          </a>
+          <a href={PHONE_HREF} className="hover:text-accent">
+            {PHONE_DISPLAY}
           </a>
         </div>
       </Container>
