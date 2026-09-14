@@ -135,7 +135,7 @@ export const caseStudies: CaseStudy[] = [
       "60% of interviewed customers cited it as a purchase or renewal driver",
     ],
     imageAlt: "Placeholder image for case study three",
-    photoSrc: "/images/enterprise_vs_independent.jpg",
+    photoSrc: "/images/onboarding.jpg",
     photoWidth: 1441,
     photoHeight: 879,
     problem: 
@@ -151,7 +151,7 @@ export const caseStudies: CaseStudy[] = [
         "Investigated data discrepancies using SQL and internal tools",
         "Translated customer issues into bug tickets or roadmap items",
         "Identified recurring requests and turned them into features",
-        "Worked with engineering to prioritize customer-impacting issues",
+        "Worked with engineering to prioritize urgent issues",
         "Explained technical concepts to non-technical users",
         "Supported customers through renewals and expansion",
       ],
