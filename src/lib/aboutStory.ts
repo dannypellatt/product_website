@@ -41,7 +41,7 @@ export const storySlides: StorySlide[] = [
   {
     index: 6,
     title: "Okay, cool I guess. Now show me the receipts.",
-    body: "Well… That’s the story so far! Now living life in Carlsbad, CA, with my dog Banjo. If you want to see how that experience translates into product work, take a look at a few of the projects I’ve led:",
+    body: "Well… That’s the story so far! Now living life in Carlsbad, CA, with my dog Banjo.\n\nIf you want to see how that experience translates into product work, take a look at a few of the projects I’ve led:",
     photoSrc: "/images/MeAndBanjo.jpeg",
     isFinal: true,
   },

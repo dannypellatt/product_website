@@ -24,9 +24,11 @@ export default function StorySlide({ slide }: { slide: StorySlideType }) {
           <h2 className="mt-3 max-w-lg font-serif text-3xl leading-tight sm:text-4xl">
             {slide.title}
           </h2>
-          <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
-            {slide.body}
-          </p>
+          <div className="mt-5 max-w-md space-y-4 text-base leading-relaxed text-muted">
+            {slide.body.split("\n\n").map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
 
           {slide.isFinal && (
             <Button href="/work" className="mt-8">
