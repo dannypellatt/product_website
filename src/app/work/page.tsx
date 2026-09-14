@@ -6,7 +6,7 @@ import CaseStudyDetail from "@/components/work/CaseStudyDetail";
 import { caseStudies } from "@/lib/caseStudies";
 
 export const metadata: Metadata = {
-  title: "Work — Your Name",
+  title: "Work — Danny Pellatt",
   description: "Selected product case studies.",
 };
 
@@ -18,7 +18,7 @@ export default function WorkPage() {
           <SectionHeading
             eyebrow="Portfolio"
             title="Selected work"
-            description="Placeholder intro paragraph describing the kinds of problems covered in these case studies and how to navigate them."
+            description="A few examples of how I’ve helped with product growth, new launches, and customer-driven features."
           />
         </Container>
       </section>
