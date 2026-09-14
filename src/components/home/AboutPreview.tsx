@@ -1,12 +1,17 @@
 import Container from "@/components/layout/Container";
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
+import Photo from "@/components/ui/Photo";
 import Button from "@/components/ui/Button";
 
 export default function AboutPreview() {
   return (
     <section className="border-b border-border py-20">
       <Container className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-center">
-        <ImagePlaceholder label="Portrait placeholder" aspect="aspect-[3/4]" />
+        <Photo
+          src="/images/confused_banjo.jpeg"
+          alt="Banjo the dog, looking confused"
+          placeholderLabel="Portrait placeholder"
+          aspect="aspect-[3/4]"
+        />
 
         <div>
           <p className="text-xs uppercase tracking-[0.15em] text-accent">About</p>
