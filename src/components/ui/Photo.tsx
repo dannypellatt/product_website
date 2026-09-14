@@ -32,7 +32,7 @@ export default function Photo({
         alt={alt}
         fill
         priority={priority}
-        className={fit === "contain" ? "object-contain p-3 sm:p-4" : "object-cover"}
+        className={fit === "contain" ? "object-contain" : "object-cover"}
         sizes="(min-width: 1024px) 480px, 100vw"
       />
     </div>
