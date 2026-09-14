@@ -52,7 +52,7 @@ export const caseStudies: CaseStudy[] = [
       ],
     },
     outcome:
-      "The platform grew into a subscription product serving more than 60 enterprise customers and 1,000+ users, with over $1M in annual recurring revenue. Along the way, we increased automation, improved validated data accuracy to over 99%, and removed roughly 100 hours of manual work per month.",
+      "The platform grew into a subscription product serving more than 60 enterprise customers and 1,000+ users, with over $1M in annual recurring revenue. It became a core commercial asset of the business, helping demonstrate the recurring revenue, customer adoption, and product maturity that contributed to the company’s successful sale.",
   },
   {
     slug: "case-study-two",
@@ -157,6 +157,6 @@ export const caseStudies: CaseStudy[] = [
       ],
     },
     outcome:
-      "The feature gave customers a new way to segment practices by estimated staffing and size, helping them identify and prioritize opportunities more effectively. In follow-up interviews, 60% of customers we spoke with said the capability was a key reason to purchase or renew.",
+      "The close customer relationship improved onboarding, reduced friction, and created a direct feedback loop between users and the product team. It also helped turn recurring support issues into lasting product improvements and gave me a clearer understanding of what customers actually valued enough to buy, renew, and expand.",
   },
 ];
