@@ -11,7 +11,7 @@ export default function Hero() {
             Danny Pellatt
           </h1>
           <p className="text-xs uppercase tracking-[0.15em] text-accent">
-            Product Manager &middot; Technical Product Manager
+            Technical Product Manager
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
             Software engineer turned product leader with experience taking products from idea through launch,
