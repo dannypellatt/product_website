@@ -25,9 +25,8 @@ export const caseStudies: CaseStudy[] = [
       "Led transformation of a free veterinary industry resource into a scalable SaaS generating more than $1M in ARR.",
     outcomes: [
       "$1m+ ARR",
-      "60+ Enterprise Customers",
-      "1000+ Users",
-      "500k+ Datapoints",
+      "60+ enterprise customers with over 1000 individual users",
+      "500k+ datapoints",
     ],
     imageAlt: "Placeholder image for case study one",
     photoSrc: "/images/vet_practice_database.jpg",
