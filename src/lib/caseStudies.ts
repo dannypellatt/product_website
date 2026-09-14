@@ -41,7 +41,7 @@ export const caseStudies: CaseStudy[] = [
       summary:
         "I helped lead the product from an early spreadsheet into a more mature SaaS database platform.",
       bullets: [
-        "Defining and prioritizing improvements based on customer feedback",
+        "Defining and prioritizing improvements through customer feedback",
         "Shaping the roadmap and introducing prioritization frameworks",
         "Redesigning the underlying data architecture",
         "Moving key workflows away from spreadsheet-based systems",
@@ -76,14 +76,14 @@ export const caseStudies: CaseStudy[] = [
       summary:
         "I led the product from initial concept through launch, working across product definition, data, research, and technical implementation. My work included:",
       bullets: [
-        "defining the scope and inclusion criteria",
-        "designing the research and verification workflow",
-        "establishing quality and status standards",
-        "identifying and evaluating potential data sources",
-        "designing the structure of the underlying dataset",
-        "building automated checks to reduce manual research",
-        "creating processes for deduplication and ownership verification",
-        "planning ongoing updates using key goal schedules",
+        "Defining the scope and inclusion criteria",
+        "Designing the research and verification workflow",
+        "Establishing quality and status standards",
+        "Identifying and evaluating potential data sources",
+        "Designing the structure of the underlying dataset",
+        "Building automated checks to reduce manual research",
+        "Creating processes for deduplication and verification",
+        "Planning ongoing updates using key goal schedules",
       ],
     },
     outcome:
@@ -111,14 +111,14 @@ export const caseStudies: CaseStudy[] = [
       summary:
         "I helped define the product approach and translate the customer need into something the engineering and data teams could work with. My role included:",
       bullets: [
-        "gathering feedback from customers and prospects",
-        "clarifying the underlying use case",
-        "defining how staffing estimates should behave",
-        "creating the logic behind multi-location veterinarians",
-        "deciding how the output should be presented to users",
-        "introducing simple practice-size categories to make the data useful",
-        "validating the feature through follow-up customer conversations",
-        "demonstrating use cases to current and potential customers",
+        "Gathering feedback from customers and prospects",
+        "Clarifying the underlying use case",
+        "Defining how staffing estimates should behave",
+        "Creating the logic behind multi-location veterinarians",
+        "Deciding how the output should be presented to users",
+        "Introducing simple practice-size categories for filtering",
+        "Validating the feature through follow-up customer conversations",
+        "Demonstrating use cases to current and potential customers",
       ],
     },
     outcome:
