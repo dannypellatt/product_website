@@ -16,7 +16,7 @@ export default function CaseStudyDetail({
       <h2 className="mt-3 max-w-2xl font-serif text-3xl leading-tight sm:text-4xl">
         {caseStudy.title}
       </h2>
-      <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
+      <p className="mt-4 text-base leading-relaxed text-muted">
         {caseStudy.summary}
       </p>
 
