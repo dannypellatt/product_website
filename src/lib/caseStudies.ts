@@ -50,7 +50,7 @@ export const caseStudies: CaseStudy[] = [
       "New $20K/year subscription product",
     ],
     imageAlt: "Placeholder image for case study two",
-    photoSrc: "/images/staffing_insights_fixed.jpg",
+    photoSrc: "/images/enterprise_vs_independent.jpg",
     photoWidth: 1442,
     photoHeight: 880,
     problem: 
@@ -73,7 +73,7 @@ export const caseStudies: CaseStudy[] = [
       "60% of interviewed customers cited it as a purchase or renewal driver",
     ],
     imageAlt: "Placeholder image for case study three",
-    photoSrc: "/images/enterprise_vs_independent.jpg",
+    photoSrc: "/images/staffing_insights_fixed.jpg",
     photoWidth: 1437,
     photoHeight: 880,
     problem: "Placeholder description of the problem this project addressed.",
