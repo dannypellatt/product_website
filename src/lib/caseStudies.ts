@@ -135,7 +135,7 @@ export const caseStudies: CaseStudy[] = [
       "60% of interviewed customers cited it as a purchase or renewal driver",
     ],
     imageAlt: "Placeholder image for case study three",
-    photoSrc: "/images/onboarding.jpg",
+    photoSrc: "/images/onboarding_customers.jpg",
     photoWidth: 1441,
     photoHeight: 879,
     problem: 
