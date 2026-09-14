@@ -1,6 +1,6 @@
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
-import { LINKEDIN_URL } from "@/lib/nav";
+import { EMAIL, LINKEDIN_URL } from "@/lib/nav";
 
 export default function ContactCTA() {
   return (
@@ -16,7 +16,7 @@ export default function ContactCTA() {
         </div>
 
         <div className="flex flex-wrap gap-4">
-          <Button href="mailto:you@example.com">Contact</Button>
+          <Button href={`mailto:${EMAIL}`}>Contact</Button>
           <Button href="#" variant="secondary">
             Resume
           </Button>

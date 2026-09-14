@@ -5,6 +5,9 @@ export type NavLink = {
 };
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/dannypellatt";
+export const EMAIL = "dannyrpellatt@gmail.com";
+export const PHONE_DISPLAY = "(571) 493-0142";
+export const PHONE_HREF = "tel:+15714930142";
 
 export const primaryNav: NavLink[] = [
   { label: "Home", href: "/" },

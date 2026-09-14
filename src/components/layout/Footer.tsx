@@ -1,4 +1,4 @@
-import { LINKEDIN_URL } from "@/lib/nav";
+import { EMAIL, LINKEDIN_URL, PHONE_DISPLAY, PHONE_HREF } from "@/lib/nav";
 import Container from "./Container";
 
 export default function Footer() {
@@ -8,8 +8,8 @@ export default function Footer() {
         <p>&copy; {new Date().getFullYear()} Danny Pellatt. All rights reserved.</p>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2">
-          <a href="#" className="hover:text-accent">
-            Resume
+          <a href={PHONE_HREF} className="hover:text-accent">
+            {PHONE_DISPLAY}
           </a>
           <a
             href={LINKEDIN_URL}
@@ -19,7 +19,7 @@ export default function Footer() {
           >
             LinkedIn
           </a>
-          <a href="mailto:you@example.com" className="hover:text-accent">
+          <a href={`mailto:${EMAIL}`} className="hover:text-accent">
             Email
           </a>
         </div>
