@@ -9,7 +9,10 @@ export type CaseStudy = {
   photoHeight?: number;
   problem: string;
   insight: string;
-  whatIDid: string;
+  whatIDid: {
+    summary: string;
+    bullets: string[];
+  };
   outcome: string;
 };
 
@@ -34,8 +37,19 @@ export const caseStudies: CaseStudy[] = [
       "Antelligence’s Enterprise Practice Database began as a free report tracking U.S. veterinary ownership. It was well received, and customers quickly began asking for the underlying data — information that simply wasn’t available in a reliable form elsewhere. That created an opportunity to turn the research into a searchable product customers would pay for and use in their day-to-day work.",
     insight:
       "Talking with customers made it clear that the value wasn't simply in having a list of veterinary practices. They wanted to use the data to understand ownership, identify opportunities, segment the market, and make better commercial decisions. That shifted the opportunity from selling access to information into building a product around how customers actually wanted to use it.",
-    whatIDid:
-      "Placeholder description of the role played and the work done to move the project forward.",
+    whatIDid: {
+      summary:
+        "I helped lead the product from an early spreadsheet into a more mature SaaS database platform.",
+      bullets: [
+        "Defining and prioritizing product improvements based on customer feedback",
+        "Shaping the roadmap and introducing clearer prioritization frameworks",
+        "Redesigning the underlying data architecture",
+        "Moving key workflows away from spreadsheet-based systems",
+        "Improving search, access control, data quality, and release processes",
+        "Working directly with customers during demos, onboarding, and product feedback sessions",
+        "Turning recurring customer requests into permanent product capabilities",
+      ],
+    },
     outcome:
       "The platform grew into a subscription product serving more than 60 enterprise customers and 1,000+ users, with over $1M in annual recurring revenue. Along the way, we increased automation, improved validated data accuracy to over 99%, and removed roughly 100 hours of manual work per month.",
   },
@@ -57,8 +71,15 @@ export const caseStudies: CaseStudy[] = [
       "Antelligence had strong visibility into corporately owned veterinary practices, but a large part of the U.S. market was still missing: independent practices. Customers wanted a more complete view of the industry, but there was no reliable source we could simply buy or import. Building the product meant first figuring out what counted as an independent veterinary practice — and then finding and verifying thousands of them.",
     insight:
       "Before building anything, I helped establish the rules that would make the database useful and consistent. We defined which practices belonged in the product, how ownership should be verified, what information customers actually needed, and how uncertain or conflicting records should be handled. That meant drawing clear boundaries around things like mobile practices, shelters, vaccine clinics, specialty hospitals, closed locations, and practices with unclear ownership.",
-    whatIDid:
-      "Placeholder description of the role played and the work done to move the project forward.",
+    whatIDid: {
+      summary:
+        "Placeholder summary sentence describing the role played in moving this project forward.",
+      bullets: [
+        "Placeholder responsibility or action",
+        "Placeholder responsibility or action",
+        "Placeholder responsibility or action",
+      ],
+    },
     outcome:
       "We launched a new subscription product covering roughly 15,000 verified independent veterinary practices, tripling Antelligence’s coverage of the U.S. veterinary market. The product opened up a previously uncovered segment for customers and created a new $20K/year subscription offering.",
   },
@@ -80,8 +101,15 @@ export const caseStudies: CaseStudy[] = [
       "Customers wanted a better way to understand the size of veterinary practices, but the available data was messy. Veterinarians often worked across multiple locations, staffing information was inconsistent, and simply counting names could make a small practice look much larger than it really was.",
     insight:
       "The underlying need wasn't just 'show me how many vets work here.' Customers wanted a practical way to compare practices, identify larger opportunities, and understand the market at a glance. That meant the feature had to simplify a messy data problem into something commercially useful.",
-    whatIDid:
-      "Placeholder description of the role played and the work done to move the project forward.",
+    whatIDid: {
+      summary:
+        "Placeholder summary sentence describing the role played in moving this project forward.",
+      bullets: [
+        "Placeholder responsibility or action",
+        "Placeholder responsibility or action",
+        "Placeholder responsibility or action",
+      ],
+    },
     outcome:
       "The feature gave customers a new way to segment practices by estimated staffing and size, helping them identify and prioritize opportunities more effectively. In follow-up interviews, 60% of customers we spoke with said the capability was a key reason to purchase or renew.",
   },
