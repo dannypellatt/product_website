@@ -16,7 +16,7 @@ export default function FeaturedWork() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {caseStudies.map((caseStudy) => (
+          {caseStudies.slice(0, 3).map((caseStudy) => (
             <CaseStudyPreviewCard key={caseStudy.slug} caseStudy={caseStudy} />
           ))}
         </div>
