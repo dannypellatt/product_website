@@ -25,7 +25,7 @@ export const caseStudies: CaseStudy[] = [
       "500k+ Datapoints",
     ],
     imageAlt: "Placeholder image for case study one",
-    photoSrc: "public/images/vet_practice_database_img.jpg",
+    photoSrc: "/images/vet_practice_database_img.jpg",
     problem: 
       "Antelligence's Enterprise Practice Database started as a free industry report tracking veterinary ownership across the U.S. It was well received, but customers quickly wanted access to the underlying data and were willing to pay for it because there was no reliable source for that information elsewhere. The opportunity was to turn a useful piece of industry research into a product customers could search, analyze, and depend on as part of their day-to-day work.",
     insight:
