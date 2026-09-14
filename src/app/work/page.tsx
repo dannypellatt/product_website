@@ -3,6 +3,7 @@ import Container from "@/components/layout/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CaseStudySelector from "@/components/work/CaseStudySelector";
 import CaseStudyDetail from "@/components/work/CaseStudyDetail";
+import ContactCTA from "@/components/shared/ContactCTA";
 import { caseStudies } from "@/lib/caseStudies";
 
 export const metadata: Metadata = {
@@ -30,6 +31,8 @@ export default function WorkPage() {
           <CaseStudyDetail key={caseStudy.slug} caseStudy={caseStudy} index={index} />
         ))}
       </Container>
+
+      <ContactCTA />
     </>
   );
 }
