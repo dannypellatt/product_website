@@ -47,7 +47,7 @@ export default function CaseStudyDetail({
         <dl>
           <div>
             <dt className="text-xs uppercase tracking-[0.15em] text-accent">What I Did</dt>
-            <dd className="mt-3 max-w-2xl text-base leading-relaxed text-fg">
+            <dd className="mt-3 text-base leading-relaxed text-fg">
               <p>{caseStudy.whatIDid.summary}</p>
               <ul className="mt-4 grid grid-cols-1 gap-x-8 gap-y-2 sm:grid-cols-2">
                 {caseStudy.whatIDid.bullets.map((bullet) => (
@@ -66,7 +66,7 @@ export default function CaseStudyDetail({
         <dl>
           <div>
             <dt className="text-xs uppercase tracking-[0.15em] text-accent">Outcome</dt>
-            <dd className="mt-3 max-w-md text-base leading-relaxed text-fg">{caseStudy.outcome}</dd>
+            <dd className="mt-3 text-base leading-relaxed text-fg">{caseStudy.outcome}</dd>
           </div>
         </dl>
       </div>
