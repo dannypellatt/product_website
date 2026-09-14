@@ -41,7 +41,7 @@ export const caseStudies: CaseStudy[] = [
       summary:
         "I helped lead the product from an early spreadsheet into a more mature SaaS database platform.",
       bullets: [
-        "Defining and prioritizing improvements using customer feedback",
+        "Defining and prioritizing features using customer feedback",
         "Shaping the roadmap and introducing prioritization frameworks",
         "Redesigning the underlying data architecture",
         "Moving key workflows away from spreadsheet-based systems",
