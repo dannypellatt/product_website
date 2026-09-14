@@ -17,6 +17,7 @@ export const storySlides: StorySlide[] = [
     index: 2,
     title: "From rocks to rock 'n' roll",
     body: "Growing up in the south of England, I was the first in my family to attend college. While studying, I discovered a love for software through analyzing geophysical data. Although I graduated in 2014 with a BS in Geology, my path took an unexpected turn shortly after when I was signed as a singer-songwriter, allowing me to play music around the world.",
+    photoSrc: "/images/gradphoto.jpeg",
   },
   {
     index: 3,
