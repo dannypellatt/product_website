@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
 
         <Photo
-          src="/images/danny-hero.jpg"
+          src="/images/danny-hero_square.jpg"
           alt="Danny Pellatt"
           placeholderLabel="Portrait placeholder"
           aspect="aspect-[4/5]"
